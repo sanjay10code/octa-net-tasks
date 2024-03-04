@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page task 1 </title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            display: inline;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: inline;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 100px 0;
+            color: #fff;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            min-height: 600px; 
+        }
+
+        .section.bg1 {
+            background-image: url('https://i.pinimg.com/736x/7d/af/d7/7dafd74cf43445f459e72de1f80dd4d0.jpg');
+        }
+
+        .section.bg2 {
+            background-image: url(https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?size=626&ext=jpg);
+        }
+
+        .section.bg3 {
+            background-image: url(https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/4:3/w_3820,h_2865,c_limit/BlackForest-Germany-GettyImages-147180370.jpg);
+        }
+
+        .section.bg4 {
+            background-image: url('https://cdn.britannica.com/95/136995-050-6209F94F/rainforest-Malaysia.jpg');
+        }
+
+        .section.bg5 {
+            background-image: url(https://www.fao.org/images/newsroomlibraries/breafing-notes/36949400340_030e4ae5f9_oab4ccd35-fd6a-4230-bd2e-f0113f50357d.jpg?sfvrsn=426ca1c_3);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Landing Page octa net task 1</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">page 1</a></li>
+                    <li><a href="#">sanjay</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section bg1">
+        <div class="container">
+            <h2>Section 1</h2>
+            <p>.</p>
+        </div>
+    </section>
+
+    <section class="section bg2">
+        <div class="container">
+            <h2>Section 2</h2>
+            <p>images of various forest.</p>
+        </div>
+    </section>
+
+    <section class="section bg3">
+        <div class="container">
+            <h2>Section 3</h2>
+            <p>picture of a forest.</p>
+        </div>
+    </section>
+
+    <section class="section bg4">
+        <div class="container">
+            <h2>Section 4</h2>
+            <p>image 4.</p>
+        </div>
+    </section>
+
+    <section class="section bg5">
+        <div class="container">
+            <h2>Section 5</h2>
+            <p>final forest image.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy;task 1 </p>
+        </div>
+    </footer>
+</body>
+</html>
